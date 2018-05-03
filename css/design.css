@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#register{
+	float: left;
+	width: 50%;
+}
+
+#login{
+	float: right;
+	width: 50%;
+}
+
+.error{
+	//border: 1px solid red;
+	padding: 10px;
+	border-radius: 10px;
+	color: red;
+	margin: 0 50px 20px 0;
+	text-align: center;
+}
+
+.error ul {
+	list-style-type: none;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+}
