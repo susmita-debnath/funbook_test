@@ -26,7 +26,7 @@
 }
 
 #wrapper {
-	width: 1200px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -52,10 +52,21 @@ input[type=password] {
 	padding: 10px 5px 10px 5px;
 }
 
-input[type=text]:hover {
-	
+#blue_box {
+	background: #3b5998;
+	height: 82px;
 }
 
-input[type=password]:hover {
-	
+#funbook {
+	width: 1000px;
+	margin: auto;
+}
+
+#writing {
+	float: left;
+	color: white;
+	line-height: 82px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 40px;
 }

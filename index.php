@@ -39,11 +39,56 @@
 </head>
 <body>
 	<div id="wrapper">
+		<div id="blue_box">
+			<div id="funbook">
+				<div id="writing">
+					funbook
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<h1>Welcome to Funbook.com Hello</h1><br>
 		<div id="register" width="50%">
 			<h2>Register</h2><br>
 
-				<?php if ( ! $valid ) { ?>
+				<?php if ( isset( $valid ) && ! $valid ) { ?>
 					<div class="error">
 						<ul>
 							<?php foreach ($msg as $value) { ?> 
