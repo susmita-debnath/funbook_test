@@ -39,7 +39,7 @@
 </head>
 <body>
 	<div id="wrapper">
-		<h1>Welcome to Funbook.com</h1><br>
+		<h1>Welcome to Funbook.com Hello</h1><br>
 		<div id="register" width="50%">
 			<h2>Register</h2><br>
 
