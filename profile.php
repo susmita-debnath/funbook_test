@@ -1,4 +1,6 @@
-
+<?php 
+	include "lib/library.php";
+?>
 
 <!DOCTYPE html>
 <html>
@@ -7,8 +9,6 @@
 </head>
 <body>
 	<h2><a href="edit_profile.php">Edit</a></h2><br>
-	<b>Email: </b> <?php echo $_POST['email']; ?><br>
-	<b>Gender: </b> <?php echo $_POST['gender'] ?>
-	<b>DOB: </b> <?php echo $_POST['dob']; ?>
+	<h2><a href="logout.php">Log out</a></h2><br>
 </body>
 </html>

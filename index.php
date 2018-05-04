@@ -29,7 +29,21 @@
 			register_user($email, $username, $password);
 		}		
 	}
+
+	if (isset($_POST['login'])) {
+		$username = $_POST['username'];
+		$password = md5($_POST['password']);
+		log_in( $username, $password );
+	}
+
+	if (is_user_logged_in()) {
+		header( "Location:profile.php" );
+	}
 ?>
+
+<?php if (isset($_REQUEST['msg'])) { ?>
+	<h4><?php echo $_REQUEST['msg'] ?></h4>
+<?php } ?>
 
 <!DOCTYPE html>
 <html>
